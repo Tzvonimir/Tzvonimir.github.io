@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<main>
+    <!-- Posts -->
+    {% for post in site.posts %}
+    <section class="section">
+        <h2 class="title">{{ post.title }}</h2>
+        <article class="item pointer">
+            <a class="link" href="{{ post.url | prepend: site.baseurl }}">
+                <header class="item__header">
+                    <div class="item__header-wrapper">
+                        <h3>{{ post.title }}</h3>
+                    </div>
+                    <span class="details">
+                        READ MORE
+                    </span>
+                </header>
+                <p>
+                    {{ post.excerpt }}
+                </p>
+            </a>
+        </article>
+    </section>
+    {% endfor %}
+    <!-- Posts -->
+</main>
