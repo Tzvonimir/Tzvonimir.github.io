@@ -1,5 +1,5 @@
-# ProCVJekyll
-Jekyll blog-cv
+# TZvonimir
+Personal CV
 
 ## Development
 ProCVJeykll is implementation of [ProCV][] in Jekyll

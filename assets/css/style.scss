@@ -242,6 +242,10 @@ main > article ~ article {
 	background: url("/img/blog.png");
 }
 
+.github {
+	background: url("/img/github.png");
+}
+
 .facebook:hover {
 	background: url("/img/hfacebook.png");
 }
@@ -260,6 +264,10 @@ main > article ~ article {
 
 .blog:hover {
 	background: url("/img/hblog.png");
+}
+
+.github:hover {
+	background: url("/img/hgithub.png");
 }
 
 /* Medium screens */

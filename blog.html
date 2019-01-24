@@ -17,7 +17,7 @@ layout: default
                     </span>
                 </header>
                 <p>
-                    {{ post.excerpt }}
+                    {{ post.excerpt | strip_html }}
                 </p>
             </a>
         </article>
