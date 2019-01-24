@@ -26,7 +26,7 @@ As we can represent letters of the alphabet with binary code, we can do the same
 
 To better imagine how computer process numbers we will take number 13 as an example:
 
-| Binary | Value | Real world value |
+| Binary | Value | Decimal          |
 |-------|--------|------------------|
 | 1     | 1      | 1                |
 | 0     | 2      | 0                |
