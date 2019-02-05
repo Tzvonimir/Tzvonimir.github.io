@@ -21,6 +21,7 @@ baseurl: "/"
 url: "https://tzvonimir.github.io"
 github_username: tzvonimir
 author: Zvonimir Tomesic
+google_site_verification: fe-lCw6WBVlmIf7_Z5zUOifoAK8Vy1cFzu1fmgzentw
 
 # Build settings
 markdown: kramdown
