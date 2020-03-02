@@ -21,6 +21,6 @@ Unlike the [half adder]({%post_url 2019-02-04-half-adder %}), the full adder can
 | 1 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 1 |
 
-Half adder digital circut is made out of a two XOR, three AND, and two OR [logic gates]({% post_url 2019-02-03-basic-logic-gates %}).
+Full adder digital circut is made out of a two XOR, three AND, and two OR [logic gates]({% post_url 2019-02-03-basic-logic-gates %}).
 
-![half-adder-logic]({{ site.url }}/img/half_adder_logic.jpg){:class="img-responsive"}
+![full-adder-logic]({{ site.url }}/img/full_adder_logic.jpg){:class="img-responsive"}
