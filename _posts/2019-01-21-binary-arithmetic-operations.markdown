@@ -57,7 +57,7 @@ First, we need to calculate the complement of our second number `B` and add `1`.
 C = 30 - 15
 
 A => 30 = 00011110
-B => 12 = 00001111
+B => 15 = 00001111
 
 (-B) => 11110000 + 1 = 11110001
 
