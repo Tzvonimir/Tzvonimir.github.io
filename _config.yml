@@ -23,6 +23,9 @@ github_username: tzvonimir
 author: Zvonimir Tomesic
 google_site_verification: fe-lCw6WBVlmIf7_Z5zUOifoAK8Vy1cFzu1fmgzentw
 
+# Google Analytics
+google_analytics: UA-163991920-1
+
 # Build settings
 markdown: kramdown
 theme: minima
