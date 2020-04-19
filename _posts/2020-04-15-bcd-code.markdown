@@ -1,0 +1,36 @@
+---
+layout: post
+title: "BCD"
+date: 2020-04-13 13:57:53 +0100
+categories: Codes
+---
+
+**BCD** or **Binary Coded Decimal** is [weighted]({% post_url 2020-04-14-basic-coding-and-codes %}) code in which each decimal number is represented as 4 bits. **BCD** was made to help represent decimal numbers.
+
+**BCD** has to have **10** combinations to display all decimal numbers. But if we take only 3 bits we will end up with **8** possible combinations which isen't enought. So we have to use 4 bits or **16** combinations.
+
+| Binary | Decimal | BCD     |
+|--------|---------|---------|
+| 0000   | 0       | 0000    |
+| 0001   | 1       | 0001    |
+| 0010   | 2       | 0010    |
+| 0011   | 3       | 0011    |
+| 0100   | 4       | 0100    |
+| 0101   | 5       | 0101    |
+| 0110   | 6       | 0110    |
+| 0111   | 7       | 0111    |
+| 1000   | 8       | 1000    |
+| 1001   | 9       | 1001    |
+|--------|---------|---------|
+
+From the example above one could ask himself, what is the difference between binary and BCD code. The main difference is that in **BCD** each decimal digit will be represented with four bits. Let’s look at an example.
+
+{% highlight ruby %}
+
+20 (base 10) = 10100 (base 2) = 0010 0000 (BCD)
+
+{% endhighlight %}
+
+Advantage of **BCD** is that it is like the decimal number system, and there are only **10** combinations.
+
+But there are some disadvantages, like complicated arithmetic and efficiency. There are more bits needed to represent decimal numbers than in binary.

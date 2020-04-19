@@ -33,6 +33,13 @@ body {
 	display: block !important;
 }
 
+figure {
+	width: 100%;
+}
+.table-wrapper {
+	overflow-x: scroll;
+  }
+  
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
