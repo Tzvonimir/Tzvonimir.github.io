@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BCD"
-date: 2020-04-13 13:57:53 +0100
+date: 2020-04-15 13:57:53 +0100
 categories: Codes
 ---
 
