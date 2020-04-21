@@ -56,15 +56,13 @@ comprising 128 7-bit characters. This means that we need only
 So let's say we want to construct number `F`. We would take 6th row, and
 4th column. Starting from `b1` as LSB  to `b7` as MSB.
 
-{{{
 
-  b1 => 0,
-  b2 => 1,
-  b4 => 1,
-  b4 => 0,
-  b5 => 0,
-  b6 => 0,
-  b7 => 1
+`b1 => 0,
+b2 => 1,
+b4 => 1,
+b4 => 0,
+b5 => 0,
+b6 => 0,
+b7 => 1`
 
-  F => 1000110
-}}}
+`F => 1000110`
