@@ -23,6 +23,7 @@ Codes can be classified as:
 
 **Weighted** codes are those in which each digit is assigned with a specific weight according to its position. Let's take a look at `1001` in **BCD**.
 
+|----------|---|---|---|---|
 | Code     | 1 | 0 | 0 | 1 |
 |----------|---|---|---|---|
 | Position | 4 | 3 | 2 | 1 |
@@ -36,6 +37,7 @@ From the example above we can see that each position is assigned specific value.
 
 Example 1.
 
+|----------|---|---|---|---|
 | Code     | 0 | 0 | 1 | 1 |
 |----------|---|---|---|---|
 | Position | 4 | 3 | 2 | 1 |
@@ -43,10 +45,12 @@ Example 1.
 | Value    | 0 | 0 | 0 | 0 |
 |----------|---|---|---|---|
 | Total    |   |   |   | 0 |
+|----------|---|---|---|---|
 
 
 Example 2.
 
+|----------|---|---|---|---|
 | Code     | 0 | 1 | 0 | 0 |
 |----------|---|---|---|---|
 | Position | 4 | 3 | 2 | 1 |
@@ -54,9 +58,11 @@ Example 2.
 | Value    | 0 | 1 | 0 | 0 |
 |----------|---|---|---|---|
 | Total    |   |   |   | 1 |
+|----------|---|---|---|---|
 
 Example 3.
 
+|----------|---|---|---|---|
 | Code     | 0 | 1 | 1 | 0 |
 |----------|---|---|---|---|
 | Position | 4 | 3 | 2 | 1 |
@@ -64,6 +70,7 @@ Example 3.
 | Value    | 0 | 2 | 1 | 0 |
 |----------|---|---|---|---|
 | Total    |   |   |   | 3 |
+|----------|---|---|---|---|
 
 We can see from examples above that values are not strictly defined by position.
 
