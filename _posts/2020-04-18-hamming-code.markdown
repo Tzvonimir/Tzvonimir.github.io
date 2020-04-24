@@ -59,8 +59,7 @@ So let's decode `0011001`
 
 First lets first find all the parity bits in the code. We know that our
 code is `7` bits long, and that 2^2^ is equal to the `4` and 2^3^ is equal
-to the `8` which means  a number of parity bits will be 3 (2^0^, 2^1^, 2^2^)
-because if it would be 4(2^0^, 2^1^, 2^2^, 2^3^) we would need at
+to the `8` which means  a number of parity bits will be 3 (2^0^, 2^1^, 2^2^) because if it would be 4(2^0^, 2^1^, 2^2^, 2^3^) we would need at
 least 8 bits in our code.
 
 | 2^0 | 2^1 | 2^2 | 2^3 | 2^4 | 2^5 | 2^6 |
@@ -121,6 +120,5 @@ position of both parity bits that have wrong value, and we get a position
 of bit we have to complement.
 
 `2 + 4 = 6`
-k
 This means we have to flip bit in position `d6` to correct the code.
 `0011001`
