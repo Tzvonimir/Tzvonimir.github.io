@@ -46,11 +46,11 @@ of numbers used to define parity bit value must be equal to `1`.
 
 `P3 = d7 + d6 + d5 = 1 + 0 + 0 = 0 so we put 1 in p3`
 
-So we can see that for parity bit one we start from MSB and then take 1 bit
-into calculation and skip one, repeating that process till the LSB
+So we can see that for parity bit one we start from LSB(in this case p1) and then take 1 bit
+into calculation and skip one, repeating that process till the MSB(p2)
 
-The growth is linear, as for p2 we will take 2 bits and skip 2.
-For a third parity bit we will take 3 and skip 3 bits.
+The growth is quadratic, as for p2 we will take 2 bits and skip 2.
+For a third parity bit we will take 4 and skip 4 bits.
 
 So now that we know how to convert a binary number into hamming code,
 we can decode the hamming code back to the binary.
@@ -111,7 +111,7 @@ For p2 we will check two and skip two, starting from p2 to d7.
 
 `p2 = d3 + d6 + d7 = 1 + 1 + 1 = 0 => p2 = 1`
 
-For p4 we will check three and skip three, starting from p4 to d7.
+For p4 we will check four and skip four, starting from p4 to d7.
 
 `p4 = d5 + d6 + d7 = 0 + 1 + 1 = 1 => p4 = 0`
 
