@@ -65,3 +65,19 @@ Basic operations of boolean algebra are:
 `(A * B)' = A' + B'`
 
 `(A + B)' = A' * B'`
+
+**Examples**
+
+We are going to take a look at a `A + A'B`
+
+{{{ruby
+
+  A + A'B
+  = (A + AB) + A'B
+  = (AA + AB) + A'B
+  = AA + AB + AA' + A'B
+  = (A + A')(A + B)
+  = 1 * (A + B)
+  = A + B
+
+}}}
