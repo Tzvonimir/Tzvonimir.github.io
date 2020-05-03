@@ -70,7 +70,7 @@ Basic operations of boolean algebra are:
 
 We are going to take a look at a `A + A'B`
 
-{{{ruby
+```
 
   A + A'B
   = (A + AB) + A'B
@@ -80,4 +80,4 @@ We are going to take a look at a `A + A'B`
   = 1 * (A + B)
   = A + B
 
-}}}
+```
