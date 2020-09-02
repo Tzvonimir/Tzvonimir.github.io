@@ -9,6 +9,8 @@ categories: Codes
 
 **BCD** has to have **10** combinations to display all decimal numbers. But if we take only 3 bits we will end up with **8** possible combinations which isen't enought. So we have to use 4 bits or **16** combinations.
 
+<div class="table-wrapper" markdown="block">
+
 | Binary | Decimal | BCD     |
 |--------|---------|---------|
 | 0000   | 0       | 0000    |
@@ -22,6 +24,8 @@ categories: Codes
 | 1000   | 8       | 1000    |
 | 1001   | 9       | 1001    |
 |--------|---------|---------|
+
+</div>
 
 From the example above one could ask himself, what is the difference between binary and BCD code. The main difference is that in **BCD** each decimal digit will be represented with four bits. Let’s look at an example.
 

@@ -20,6 +20,8 @@ There are seven basic logic gates:
 
 ![and-gate]({{ site.url }}/img/and.jpg){:class="img-responsive"}
 
+<div class="table-wrapper" markdown="block">
+
 | A | B | AB |
 |---|---|----|
 | 0 | 0 | 0  |
@@ -28,9 +30,13 @@ There are seven basic logic gates:
 | 1 | 1 | 1  |
 |---|---|----|
 
+</div>
+
 **OR**
 
 ![or-gate]({{ site.url }}/img/or.jpg){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A+B |
 |---|---|-----|
@@ -40,9 +46,13 @@ There are seven basic logic gates:
 | 1 | 1 | 1   |
 |---|---|-----|
 
+</div>
+
 **NOT**
 
 ![not-gate]({{ site.url }}/img/not.jpg){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | A'  |
 |---|-----|
@@ -50,9 +60,13 @@ There are seven basic logic gates:
 | 1 | 0   |
 |---|-----|
 
+</div>
+
 **XOR**
 
 ![xor-gate]({{ site.url }}/img/xor.jpg){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A⊕B |
 |---|---|-----|
@@ -62,9 +76,13 @@ There are seven basic logic gates:
 | 1 | 1 | 0   |
 |---|---|-----|
 
+</div>
+
 **NAND**
 
 ![nand-gate]({{ site.url }}/img/nand.jpg){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | AB' |
 |---|---|-----|
@@ -74,9 +92,13 @@ There are seven basic logic gates:
 | 1 | 1 | 0   |
 |---|---|-----|
 
+</div>
+
 **NOR**
 
 ![nor-gate]({{ site.url }}/img/nor.jpg){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A+B' |
 |---|---|------|
@@ -86,9 +108,13 @@ There are seven basic logic gates:
 | 1 | 1 | 0    |
 |---|---|------|
 
+</div>
+
 **XNOR**
 
 ![xnor-gate]({{ site.url }}/img/xnor.jpg){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A⊕B' |
 |---|---|------|
@@ -97,3 +123,5 @@ There are seven basic logic gates:
 | 1 | 0 | 0    |
 | 1 | 1 | 1    |
 |---|---|------|
+
+</div>

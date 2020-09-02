@@ -12,6 +12,8 @@ To understand why is that the case we need to return to the [basic binary]({% po
 
 Let’s take number 7 and represent him in binary.
 
+<div class="table-wrapper" markdown="block">
+
 | Binary | Value | Decimal |
 |--------|-------|---------|
 | 1      | 1     | 1       |
@@ -20,6 +22,8 @@ Let’s take number 7 and represent him in binary.
 | 0      | 8     | 0       |
 | Total  |       | 7       |
 |--------|-------|---------|
+
+</div>
 
 We calculate a mathematical representation of above as:
 
@@ -37,6 +41,8 @@ So we can see that we represent each number as the power of two.
 
 We apply the same principle for floating numbers in binary, just as we have to think of numbers are on the right side of the floating-point as a negative power of two. If we want to express 0.5 as a binary number we understand that 0.5 is the same as 1/2. And then we can proceed to conversion 2 to the power of negative -1.
 
+<div class="table-wrapper" markdown="block">
+
 | Binary | Value | Decimal |
 |--------|-------|---------|
 | 1      | 1/2   | 0.5     |
@@ -45,6 +51,8 @@ We apply the same principle for floating numbers in binary, just as we have to t
 | 0      | 1/16  | 0       |
 | Total  |       | 0.5     |
 |--------|-------|---------|
+
+</div>
 
 
 We calculate mathematical representation of above as:
@@ -75,12 +83,16 @@ With **32** bits we can represent single point precision, and with **64** bits w
 
   Let’s take 7.5 from the beginning and represent him as a **single point precision**
 
+<div class="table-wrapper" markdown="block">
+
   | Sign     | 0                       |
   |----------|-------------------------|
   | Exponent | 10000001                |
   |----------|-------------------------|
   | Matissa  | 11110000000000000000000 |
   |----------|-------------------------|
+
+</div>
 
   We need to remember how to represent scientific numbers because we will use the same principle of number representation while converting floating-point binary numbers.
 
@@ -128,6 +140,8 @@ Now we need to add **excess-127** to the number two.
 
 So let’s covert number 129 to the binary representation.
 
+<div class="table-wrapper" markdown="block">
+
 | Binary | Value | Decimal |
 |--------|-------|---------|
 | 1      | 1     | 1       |
@@ -140,6 +154,8 @@ So let’s covert number 129 to the binary representation.
 | 1      | 128   | 128     |
 | Total  |       | 129     |
 |--------|-------|---------|
+
+</div>
 
 Now we can conclude that the **sign** bit will be **0** because we know that number 7.5 is a positive number, and we have found our exponent as an **excess-127** of total numbers we moved the floating-point to get single high bit **10000001**.
 

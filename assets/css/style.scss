@@ -39,9 +39,8 @@ figure {
 .table-wrapper {
 	overflow-x: scroll;
   }
-  
+
 .wrapper {
-	display: flex;
 	flex-flow: row wrap;
 	background: white;
 	margin: 50px auto;
@@ -54,8 +53,8 @@ figure {
 
 .article-content { flex: 5; }
 
-.article-title { 
-	order: 1; 
+.article-title {
+	order: 1;
 	flex: 2;
 }
 
@@ -122,7 +121,7 @@ main > article ~ article {
 	border-top: 1px solid #dadada;
 }
 
-.profile-img {    
+.profile-img {
 	width: 180px;
     height: 180px;
     object-fit: cover;
@@ -349,7 +348,7 @@ main > article ~ article {
 }
 
 .list li {
-	padding-left: 1em; 
+	padding-left: 1em;
 	text-indent: -.7em;
 }
 

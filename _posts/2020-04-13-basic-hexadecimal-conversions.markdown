@@ -32,14 +32,20 @@ While converting **hexadecimal** to **binary**, we have to split each number int
 
 **First Group**
 
+<div class="table-wrapper" markdown="block">
+
 | Divide | Quotation | Reminder |
 |--------|-----------|----------|
 | 1/2    | 0         | 1        |
 |--------|-----------|----------|
 
+</div>
+
 If we read **Reminder** from bottom up, we can see `1` as a binary representation of number 1, because we are talking about **hexadecimal** we know that hexadecimal numbers are created from groups of four bits, we will add multiple zeros to the end. So we end up with `0001`.
 
 **Second group**
+
+<div class="table-wrapper" markdown="block">
 
 | Divide | Quotation | Reminder |
 |--------|-----------|----------|
@@ -49,6 +55,8 @@ If we read **Reminder** from bottom up, we can see `1` as a binary representatio
 |--------|-----------|----------|
 | 1/2    | 0         | 1        |
 |--------|-----------|----------|
+
+</div>
 
 If we read **Reminder** from bottom up, we can see `100` as a binary representation of number 4, again we are using a hexadecimal number system so we have to add one more zero to the end. So we end up with `0100`.
 

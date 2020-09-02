@@ -9,6 +9,8 @@ categories: Codes
 
 **Excess-3** code is used to express decimal numbers. **Excess-3** code is useful for arithmetics because it overcomes shortcomings of **BDC** in adding numbers that are greater than `9`.
 
+<div class="table-wrapper" markdown="block">
+
 | Excess-3 | Decimal | BCD  |
 |----------|---------|------|
 | 0011     | 0       | 0000 |
@@ -22,6 +24,8 @@ categories: Codes
 | 1011     | 8       | 1000 |
 | 1100     | 9       | 1001 |
 |----------|---------|------|
+
+</div>
 
 Easy way to covert **decimal** number into **Excess-3** code is to add `3` to it and then convert it into **Binary**
 

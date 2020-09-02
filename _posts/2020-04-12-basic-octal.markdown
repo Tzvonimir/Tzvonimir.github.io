@@ -8,6 +8,8 @@ Octal number system is a number system with a base 8. Octal number system is use
 
 So lets look at a first 15 numbers in decimal, binary and octal.
 
+<div class="table-wrapper" markdown="block">
+
 | Decimal | Binary | Octal |
 |---------|--------|-------|
 | 0       | 0000   | 0     |
@@ -27,6 +29,8 @@ So lets look at a first 15 numbers in decimal, binary and octal.
 | 14      | 1110   | 16    |
 | 15      | 1111   | 17    |
 |---------|--------|-------|
+
+</div>
 
 So we can see that the greatest number in one octal group is 7, because we represent octal number as three binary numbers.
 

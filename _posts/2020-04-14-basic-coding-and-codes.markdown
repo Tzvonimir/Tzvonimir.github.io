@@ -23,6 +23,8 @@ Codes can be classified as:
 
 **Weighted** codes are those in which each digit is assigned with a specific weight according to its position. Let's take a look at `1001` in **BCD**.
 
+<div class="table-wrapper" markdown="block">
+
 |----------|---|---|---|---|
 | Code     | 1 | 0 | 0 | 1 |
 |----------|---|---|---|---|
@@ -31,11 +33,15 @@ Codes can be classified as:
 | Value    | 8 | 4 | 2 | 1 |
 |----------|---|---|---|---|
 
+</div>
+
 From the example above we can see that each position is assigned specific value.
 
 **Non-Wighted** codes are those that are not positionally weighted. In other words, each digit position within the number is not assigne a fixed value. Example of non-weigted code is **Excess-3** code. Let's take a look at a `0011` in **Excess-3** code.
 
 Example 1.
+
+<div class="table-wrapper" markdown="block">
 
 |----------|---|---|---|---|
 | Code     | 0 | 0 | 1 | 1 |
@@ -47,8 +53,12 @@ Example 1.
 | Total    |   |   |   | 0 |
 |----------|---|---|---|---|
 
+</div>
+
 
 Example 2.
+
+<div class="table-wrapper" markdown="block">
 
 |----------|---|---|---|---|
 | Code     | 0 | 1 | 0 | 0 |
@@ -60,7 +70,11 @@ Example 2.
 | Total    |   |   |   | 1 |
 |----------|---|---|---|---|
 
+</div>
+
 Example 3.
+
+<div class="table-wrapper" markdown="block">
 
 |----------|---|---|---|---|
 | Code     | 0 | 1 | 1 | 0 |
@@ -71,6 +85,8 @@ Example 3.
 |----------|---|---|---|---|
 | Total    |   |   |   | 3 |
 |----------|---|---|---|---|
+
+</div>
 
 We can see from examples above that values are not strictly defined by position.
 

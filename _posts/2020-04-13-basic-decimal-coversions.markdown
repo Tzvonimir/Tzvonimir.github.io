@@ -24,6 +24,8 @@ So lets convert number **20** to binary.
 
 Main thing we need to know while converting decimal to binary is that we need to divide decimal number with **2** until we get **quotation 0**
 
+<div class="table-wrapper" markdown="block">
+
 | Divide | Quotation | Reminder |
 |--------|-----------|----------|
 | 20/2   | 10        | 0        |
@@ -36,6 +38,8 @@ Main thing we need to know while converting decimal to binary is that we need to
 |--------|-----------|----------|
 | 1/2    | 0         | 1        |
 |--------|-----------|----------|
+
+</div>
 
 If we read **Reminder** from bottom up, we can see `10100` as a binary representation of number 20.
 
@@ -53,12 +57,16 @@ So lets convert number **20** to octal.
 
 Main thing we need to know while converting decimal to octal is that we need to divide a decimal number with **8** until we get **quotation 0**
 
+<div class="table-wrapper" markdown="block">
+
 | Divide | Quotation | Reminder |
 |--------|-----------|----------|
 | 20/8   | 2         | 4        |
 |--------|-----------|----------|
 | 2/8    | 0         | 2        |
 |--------|-----------|----------|
+
+</div>
 
 If we read **Reminder** from bottom up, we can see `24` as an octal representation of number 20.
 
@@ -76,11 +84,15 @@ So lets convert number **20** to hexadecimal.
 
 Main thing we need to know while converting decimal to octal is that we need to divide a decimal number with **16** until we get **quotation 0*
 
+<div class="table-wrapper" markdown="block">
+
 | Divide | Quotation | Reminder |
 |--------|-----------|----------|
 | 20/16  | 1         | 4        |
 |--------|-----------|----------|
 | 2/16   | 0         | 1        |
 |--------|-----------|----------|
+
+</div>
 
 If we read **Reminder** from bottom up, we can see `14` as a hexadecimal representation of number 20.

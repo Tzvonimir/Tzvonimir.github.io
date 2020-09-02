@@ -21,12 +21,16 @@ So the code would be:
 
 So the hamming code would look like this.
 
+<div class="table-wrapper" markdown="block">
+
 | 2^0 | 2^1 | 2^2 | 2^3 | 2^4 | 2^5 | 2^6 |
 |-----|-----|-----|-----|-----|-----|-----|
 | p1  | p2  | d3  | p4  | d5  | d6  | d7  |
 |-----|-----|-----|-----|-----|-----|-----|
 |  0  |  0  |  1  |  1  |  0  |  0  |  1  |
 |-----|-----|-----|-----|-----|-----|-----|
+
+</div>
 
 Let’s explain how to find a position where we will put parity bits.
 Parity bit will always go to the position equal to the 2 to the
@@ -62,12 +66,16 @@ code is `7` bits long, and that 2^2^ is equal to the `4` and 2^3^ is equal
 to the `8` which means  a number of parity bits will be 3 (2^0^, 2^1^, 2^2^) because if it would be 4(2^0^, 2^1^, 2^2^, 2^3^) we would need at
 least 8 bits in our code.
 
+<div class="table-wrapper" markdown="block">
+
 | 2^0 | 2^1 | 2^2 | 2^3 | 2^4 | 2^5 | 2^6 |
 |-----|-----|-----|-----|-----|-----|-----|
 | p1  | p2  | d3  | p4  | d5  | d6  | d7  |
 |-----|-----|-----|-----|-----|-----|-----|
 |  0  |  0  |  1  |  1  |  0  |  0  |  1  |
 |-----|-----|-----|-----|-----|-----|-----|
+
+</div>
 
 So for p1 we will check one and skip one, starting from p1 to d7.
 
@@ -94,12 +102,16 @@ Let’s look at a hamming code with an error we can correct.
 
 `0011011`
 
+<div class="table-wrapper" markdown="block">
+
 | 2^0 | 2^1 | 2^2 | 2^3 | 2^4 | 2^5 | 2^6 |
 |-----|-----|-----|-----|-----|-----|-----|
 | p1  | p2  | d3  | p4  | d5  | d6  | d7  |
 |-----|-----|-----|-----|-----|-----|-----|
 |  0  |  0  |  1  |  1  |  0  |  1  |  1  |
 |-----|-----|-----|-----|-----|-----|-----|
+
+</div>
 
 So for p1 we will check one and skip one, starting from p1 to d7.
 

@@ -13,6 +13,8 @@ or **standard product terms**
 But if we combine two variables x and y with logical OR operator we will get
 Boolean sum terms called **max terms** or **standard sum terms**
 
+<div class="table-wrapper" markdown="block">
+
 | x | y | Min terms  | Max terms    |
 |---|---|------------|--------------|
 | 0 | 0 | m0 = x'y'  | M0 = x + y   |
@@ -20,6 +22,8 @@ Boolean sum terms called **max terms** or **standard sum terms**
 | 1 | 0 | m2 = xy'   | M2 = x' + y  |
 | 1 | 1 | m3 = xy    | M3 = x' + y' |
 |---|---|------------|--------------|
+
+</div>
 
 From table above we can see that min terms and max terms are complemetary.
 

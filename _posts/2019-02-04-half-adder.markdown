@@ -10,6 +10,8 @@ Half adder is a digital circuit, used for [adding]({% post_url 2019-01-21-binary
 
 ![half-adder]({{ site.url }}/img/half_adder.jpg){:class="img-responsive"}
 
+<div class="table-wrapper" markdown="block">
+
 | A | B | S | C |
 |---|---|---|---|
 | 0 | 0 | 0 | 0 |
@@ -17,6 +19,8 @@ Half adder is a digital circuit, used for [adding]({% post_url 2019-01-21-binary
 | 1 | 0 | 1 | 0 |
 | 1 | 1 | 1 | 1 |
 |---|---|---|---|
+
+</div>
 
 We make half adder digital circuit of an XOR and AND [logic gate]({% post_url 2019-02-03-basic-logic-gates %}).
 

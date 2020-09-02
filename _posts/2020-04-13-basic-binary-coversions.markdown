@@ -35,6 +35,8 @@ So with that let's convert number `010100` to the decimal.
 
 {% endhighlight %}
 
+<div class="table-wrapper" markdown="block">
+
 | Binary | Value | Decimal |
 |-------|--------|---------|
 | 0     | 1      | 0       |
@@ -45,6 +47,8 @@ So with that let's convert number `010100` to the decimal.
 | 0     | 32     | 0       |
 | Total |        | 20      |
 |-------|--------|---------|
+
+</div>
 
 **Binary to Octal**
 
@@ -88,6 +92,8 @@ After deviding number into groups of three we can procide to converting each gro
 
 **First group**
 
+<div class="table-wrapper" markdown="block">
+
 | binary | value | decimal |
 |-------|--------|---------|
 | 0     | 1      | 0       |
@@ -96,7 +102,11 @@ After deviding number into groups of three we can procide to converting each gro
 | total |        | 2       |
 |-------|--------|---------|
 
+</div>
+
 **Second group**
+
+<div class="table-wrapper" markdown="block">
 
 | binary | value | decimal |
 |-------|--------|---------|
@@ -105,6 +115,8 @@ After deviding number into groups of three we can procide to converting each gro
 | 1     | 4      | 4       |
 | total |        | 4       |
 |-------|--------|---------|
+
+</div>
 
 Then we just concat total starting from first group `24`
 
@@ -150,6 +162,8 @@ After deviding number into groups of four we can procide to converting each grou
 
 **First group**
 
+<div class="table-wrapper" markdown="block">
+
 | binary | value | decimal |
 |-------|--------|---------|
 | 1     | 1      | 1       |
@@ -159,7 +173,11 @@ After deviding number into groups of four we can procide to converting each grou
 | total |        | 1       |
 |-------|--------|---------|
 
+</div>
+
 **Second group**
+
+<div class="table-wrapper" markdown="block">
 
 | binary | value | decimal |
 |-------|--------|---------|
@@ -169,5 +187,7 @@ After deviding number into groups of four we can procide to converting each grou
 | 0     | 8      | 0       |
 | total |        | 4       |
 |-------|--------|---------|
+
+</div>
 
 Then we just concat total starting from first group `14`

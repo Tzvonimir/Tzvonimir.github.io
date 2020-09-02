@@ -14,6 +14,8 @@ e7 => 1110 0111 = 231
 
 We as humans use hexadecimal language to represent machine language with more ease. So one would ask why don’t we use the decimal system. The main reason is a collaboration between binary and hexadecimal. We can represent every hexadecimal number as four binary numbers.
 
+<div class="table-wrapper" markdown="block">
+
 | Hexadecimal | Binary         | Decimal value |
 |-------------|----------------|---------------|
 | 0           | 0000           | 0             |
@@ -34,9 +36,13 @@ We as humans use hexadecimal language to represent machine language with more ea
 | F           | 1111           | 15            |
 |-------------|----------------|---------------|
 
+</div>
+
 To better comprehend the reasons behind the above statement we need to know that our basic decimal system has a base of 10 supposed to hexadecimal which has a base of 16. So with that in mind, we know that the best ways to compress binary data should have a base that is a multiple of 2.
 
 To better imagine how to convert hexadecimal to decimal, we will take number 231 as an example
+
+<div class="table-wrapper" markdown="block">
 
 | Hexadecimal | Value  | Decimal value |
 |-------------|--------|---------------|
@@ -44,6 +50,8 @@ To better imagine how to convert hexadecimal to decimal, we will take number 231
 | 7           | 7      | 7             |
 | Total       |        | 231           |
 |-------------|--------|---------------|
+
+</div>
 
 We calculate a mathematical representation of above as:
 

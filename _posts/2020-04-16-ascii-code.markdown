@@ -10,6 +10,8 @@ categories: Codes
 comprising 128 7-bit characters. This means that we need only
 7 bits to represent an **ASCII** character.
 
+<div class="table-wrapper" markdown="block">
+
 |----|----|----|----|---------|-----|-----|----|---|---|---|---|----|
 | b7 |    |    | -> |         | 0   | 0   | 0  | 0 | 1 | 1 | 1 | 1  |
 |----|----|----|----|---------|-----|-----|----|---|---|---|---|----|
@@ -51,6 +53,8 @@ comprising 128 7-bit characters. This means that we need only
 |----|----|----|----|---------|-----|-----|----|---|---|---|---|----|
 | 1  | 1  | 1  | 1  | 15      | SI  | US  | /  | ? | O | _ | o | DEL|
 |----|----|----|----|---------|-----|-----|----|---|---|---|---|----|
+
+</div>
 
 
 So let's say we want to construct number `F`. We would take 6th row, and

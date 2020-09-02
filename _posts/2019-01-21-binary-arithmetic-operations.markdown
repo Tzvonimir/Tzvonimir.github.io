@@ -11,6 +11,8 @@ After grasping basic [binary]({% post_url 2018-12-30-basic-binary %}) knowledge 
 
 First, we have to understand how addition works in binary. There are only four rules we have to respect when doing binary addition.
 
+<div class="table-wrapper" markdown="block">
+
 | First binary number | Second binary number | Sum | Carry |
 |---------------------|----------------------|-----|-------|
 | 0                   | 0                    | 0   | 0     |
@@ -18,6 +20,8 @@ First, we have to understand how addition works in binary. There are only four r
 | 1                   | 0                    | 1   | 0     |
 | 1                   | 1                    | 0   | 1     |
 |---------------------|----------------------|-----|-------|
+
+</div>
 
 In case we need to add `1` and `1` as shown in the fourth rule in the table above we can see that product of those two binary numbers is `0` but we carry `1` to the next step of the addition process.
 
@@ -30,6 +34,8 @@ To better understand addition, let’s do an example.
 38 => 00100110
 {% endhighlight %}
 
+<div class="table-wrapper" markdown="block">
+
 | First binary number | Second binary number | Sum | Carry |
 |---------------------|----------------------|-----|-------|
 | 0                   | 0                    | 0   | 0     |
@@ -41,6 +47,8 @@ To better understand addition, let’s do an example.
 | 0                   | 0                    | 0   | 0     |
 | 0                   | 0                    | 0   | 0     |
 |---------------------|----------------------|-----|-------|
+
+</div>
 
 **Subtraction**
 
@@ -67,6 +75,8 @@ C => 00011110 + 11110001 = 00001111
 
 Now when we have a two’s complement of our number `B` we can proceed to addition.
 
+<div class="table-wrapper" markdown="block">
+
 | First binary number | Second binary number | Sum | Carry |
 |---------------------|----------------------|-----|-------|
 | 0                   | 1                    | 1   | 0     |
@@ -79,9 +89,13 @@ Now when we have a two’s complement of our number `B` we can proceed to additi
 | 0                   | 1                    | 0   | 1     |
 |---------------------|----------------------|-----|-------|
 
+</div>
+
 **Multiplication**
 
 Multiplication in binary is identical to multiplication in decimal. There are only four rules we have to respect when doing the first part of multiplication.
+
+<div class="table-wrapper" markdown="block">
 
 | First binary number | Second binary number | Multiplication |
 |---------------------|----------------------|----------------|
@@ -90,6 +104,8 @@ Multiplication in binary is identical to multiplication in decimal. There are on
 | 1                   | 0                    | 0              |
 | 1                   | 1                    | 1              |
 |---------------------|----------------------|----------------|
+
+</div>
 
 To better understand multiplication, let’s do an example.
 
@@ -100,6 +116,8 @@ To better understand multiplication, let’s do an example.
 26 * 12 = 312
 00011010 * 00001100 = 100111000
 {% endhighlight %}
+
+<div class="table-wrapper" markdown="block">
 
 | Operation       | Binary    | Decimal | Decimal Multi. |
 |-----------------|-----------|---------|----------------|
@@ -123,6 +141,8 @@ To better understand multiplication, let’s do an example.
 |-----------------|-----------|---------|----------------|
 | Final product   | 100111000 | 312     | 312            |
 |-----------------|-----------|---------|----------------|
+
+</div>
 
 **Division**
 
@@ -167,6 +187,8 @@ _________
 
 {% endhighlight %}
 
+<div class="table-wrapper" markdown="block">
+
 | Operation          | Binary   | Binary   | Decimal |
 |--------------------|----------|----------|---------|
 | Quotation          |          | 00001101 | 13      |
@@ -185,3 +207,5 @@ _________
 |--------------------|----------|----------|---------|
 | Rest               |          | 00000000 | 0       |
 |--------------------|----------|----------|---------|
+
+</div>

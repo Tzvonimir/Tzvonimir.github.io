@@ -32,6 +32,8 @@ While converting **octal** to **binary**, we have to split each number into a se
 
 **First Group**
 
+<div class="table-wrapper" markdown="block">
+
 | Divide | Quotation | Reminder |
 |--------|-----------|----------|
 | 2/2    | 1         | 0        |
@@ -39,9 +41,13 @@ While converting **octal** to **binary**, we have to split each number into a se
 | 1/2    | 0         | 1        |
 |--------|-----------|----------|
 
+</div>
+
 If we read **Reminder** from bottom up, we can see `10` as a binary representation of number 2, because we are talking about **octal** we know that octal numbers are created from groups of three bits, we will add zero to the end. So we end up with `010`.
 
 **Second group**
+
+<div class="table-wrapper" markdown="block">
 
 | Divide | Quotation | Reminder |
 |--------|-----------|----------|
@@ -51,6 +57,8 @@ If we read **Reminder** from bottom up, we can see `10` as a binary representati
 |--------|-----------|----------|
 | 1/2    | 0         | 1        |
 |--------|-----------|----------|
+
+</div>
 
 If we read **Reminder** from bottom up, we can see `100` as a binary representation of number 4.
 

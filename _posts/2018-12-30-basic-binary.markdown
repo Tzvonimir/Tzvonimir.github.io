@@ -28,6 +28,8 @@ As we can represent letters of the alphabet with binary code, we can do the same
 
 To better imagine how computer process numbers we will take number 13 as an example:
 
+<div class="table-wrapper" markdown="block">
+
 | Binary | Value | Decimal |
 |-------|--------|---------|
 | 1     | 1      | 1       |
@@ -40,6 +42,8 @@ To better imagine how computer process numbers we will take number 13 as an exam
 | 0     | 128    | 0       |
 | Total |        | 13      |
 |-------|--------|---------|
+
+</div>
 
 We calculate a mathematical representation of above as:
 

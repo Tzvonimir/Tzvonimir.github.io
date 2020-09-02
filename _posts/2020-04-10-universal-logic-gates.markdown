@@ -13,11 +13,15 @@ There are three different sets or categories we can use to classify universal lo
 * Complete Set
 * Minimal Set
 
+<div class="table-wrapper" markdown="block">
+
 | Full set     | Complete set | Minimal Set |
 |--------------|--------------|-------------|
 | AND, OR, NOT | AND, NOT     | NAND        |
 |              | OR, NOT      |             |
 |--------------|--------------|-------------|
+
+</div>
 
 All sets can create a different range or Boolean functions, but logical gates in **Minimal set** have a build-in property to create all the boolean functions by themselves.
 
@@ -29,6 +33,8 @@ So let’s try to define all the basic logic gates using only **Universal logica
 
 ![nand-gate]({{ site.url }}/img/universal/NAND.png){:class="img-responsive"}
 
+<div class="table-wrapper" markdown="block">
+
 | A | B | AB’ |
 |---|---|-----|
 | 0 | 0 | 1   |
@@ -37,9 +43,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 0   |
 |---|---|-----|
 
+</div>
+
 **NAND TO AND**
 
 ![and-gate]({{ site.url }}/img/universal/NAND->AND.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | AB |
 |---|---|----|
@@ -49,9 +59,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 1  |
 |---|---|----|
 
+</div>
+
 **NAND TO OR**
 
 ![or-gate]({{ site.url }}/img/universal/NAND->OR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A+B |
 |---|---|-----|
@@ -61,9 +75,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 1   |
 |---|---|-----|
 
+</div>
+
 **NAND TO NOT**
 
 ![not-gate]({{ site.url }}/img/universal/NAND->NOT.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | A’|
 |---|---|
@@ -71,9 +89,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 0 |
 |---|---|
 
+</div>
+
 **NAND TO XOR**
 
 ![xor-gate]({{ site.url }}/img/universal/NAND->XOR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A⊕B |
 |---|---|-----|
@@ -83,9 +105,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 0   |
 |---|---|-----|
 
+</div>
+
 **NAND TO NOR**
 
 ![nor-gate]({{ site.url }}/img/universal/NAND->NOR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A+B’ |
 |---|---|------|
@@ -95,9 +121,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 0    |
 |---|---|------|
 
+</div>
+
 **NAND TO XNOR**
 
 ![xnor-gate]({{ site.url }}/img/universal/NAND->XNOR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A⊕B’ |
 |---|---|------|
@@ -107,11 +137,15 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 1    |
 |---|---|------|
 
+</div>
+
 **NOR Universal gate transformations**
 
 **NOR**
 
 ![nor-gate]({{ site.url }}/img/universal/NOR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A+B’ |
 |---|---|------|
@@ -121,9 +155,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 0    |
 |---|---|------|
 
+</div>
+
 **NOR TO AND** 
 
 ![and-gate]({{ site.url }}/img/universal/NOR->AND.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | AB |
 |---|---|----|
@@ -133,9 +171,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 1  |
 |---|---|----|
 
+</div>
+
 **NOR TO OR** 
 
 ![or-gate]({{ site.url }}/img/universal/NOR->OR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A+B |
 |---|---|-----|
@@ -145,9 +187,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 1   |
 |---|---|-----|
 
+</div>
+
 **NOR TO NOT**
 
 ![not-gate]({{ site.url }}/img/universal/NOR->NOT.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | A’ |
 |---|----|
@@ -155,9 +201,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 0  |
 |---|----|
 
+</div>
+
 **NOR TO XOR**
 
 ![xor-gate]({{ site.url }}/img/universal/NOR->XOR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A⊕B |
 |---|---|-----|
@@ -167,9 +217,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 0   |
 |---|---|-----|
 
+</div>
+
 **NOR TO NAND** 
 
 ![nand-gate]({{ site.url }}/img/universal/NOR->NAND.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | AB’ |
 |---|---|-----|
@@ -179,9 +233,13 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 1 | 0   |
 |---|---|-----|
 
+</div>
+
 **NOR TO XNOR**
 
 ![xnor-gate]({{ site.url }}/img/universal/NOR->XNOR.png){:class="img-responsive"}
+
+<div class="table-wrapper" markdown="block">
 
 | A | B | A⊕B’ |
 |---|---|------|
@@ -190,3 +248,5 @@ So let’s try to define all the basic logic gates using only **Universal logica
 | 1 | 0 | 0    |
 | 1 | 1 | 1    |
 |---|---|------|
+
+</div>
